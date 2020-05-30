@@ -237,9 +237,6 @@ let neptune = sprites.create(img`
 OrbitDistance6 = 90
 let currentAGE7 = 70
 game.onUpdate(function () {
-	
-})
-game.onUpdate(function () {
     current_angle += 0.1
     mercury.x = Sun.x + Math.cos(current_angle) * orbitDistance
     mercury.y = Sun.y + Math.sin(current_angle) * orbitDistance
